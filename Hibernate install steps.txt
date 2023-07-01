@@ -24,3 +24,16 @@ Steps to create the Hibernate file.
 
 4. Now copy the entire <hibernate-configuration> to </hibernate-configuration> section from the given file to the newly created .cfg.xml file and paste it. 
 
+5. Now edit the mapping file with the syntax in the <hibernate-mapping> </hibernate-mapping> section given below, change as per the changes required
+
+<class name="com.demo.beans.MyUser" table="myuser11">
+        <id name="uid">
+           <generator class="assigned"></generator>
+        
+        </id>
+        <property name="uname" type="string" column="name" not-null="true"></property>
+        <property name="email" type="string"></property>
+</class>
+
+
+
