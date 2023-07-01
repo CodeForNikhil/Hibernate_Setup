@@ -20,7 +20,7 @@ Steps to create the Hibernate file.
 
 2. Now right click on the src/main/resources --> create a new XML file, in the XML naming section add hibernate.cfg.xml ( to map it with Hibernate Configuration), select the option to create file using a DTD or XML schema file, select the import file section if you have not installed the config & mapping file in the workspace directory and then select the config file for hibernate.cfg.xml
 
-3. Proceed the same for mapping file just give the extension as hibernate.hbm.xml
+3. Proceed the same for mapping file just give the extension as "filename".hbm.xml
 
 4. Now copy the entire <hibernate-configuration> to </hibernate-configuration> section from the given file to the newly created .cfg.xml file and paste it. 
 
