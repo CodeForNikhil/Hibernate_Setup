@@ -16,7 +16,7 @@ Steps to create the Hibernate file.
 1. Go to new --> Maven --> tick the Create a Simple Project(Skip archetype selection) and then proceed accordingly.
 ++-----------------------------------++
 
-1. For Hibernate Mapping and Hibernate Configuration --> Copy the two files in the folder named (Hibernate-configuration, hibernate-mapping) and store them in the folder.
+1. For Hibernate Mapping and Hibernate Configuration --> Copy the three files in the folder named (Hibernate-configuration, hibernate-mapping, hibernate.cfg.xml) and store them in the folder.
 
 2. Now right click on the src/main/resources --> create a new XML file, in the XML naming section add hibernate.cfg.xml ( to map it with Hibernate Configuration), select the option to create file using a DTD or XML schema file, select the import file section if you have not installed the config & mapping file in the workspace directory and then select the config file for hibernate.cfg.xml
 
