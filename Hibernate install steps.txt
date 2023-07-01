@@ -24,6 +24,21 @@ Steps to create the Hibernate file.
 
 4. Now copy the entire <hibernate-configuration> to </hibernate-configuration> section from the given file to the newly created .cfg.xml file and paste it. 
 
+change the section within the 
+
+<property name="connection.url">jdbc:mysql://192.168.10.150:3306/dac1?useSSL=false</property>
+    <property name="connection.username">dac1</property>
+    <property name="connection.password">welcome</property>
+
+as per the SQL database information.
+
+Also,
+
+    <mapping class="com.demo.beans.Student"/>
+    <mapping class="com.demo.beans.Address"/> 
+
+to map it accordingly.
+
 5. Now edit the mapping file with the syntax in the <hibernate-mapping> </hibernate-mapping> section given below, change as per the changes required
 
 <class name="com.demo.beans.MyUser" table="myuser11">
@@ -36,4 +51,4 @@ Steps to create the Hibernate file.
 </class>
 
 
-
+6. Note: if Annotations are used in the project, there is no need to create mapping file.
