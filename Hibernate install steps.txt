@@ -4,7 +4,10 @@
 
 3. Right click on the newly created maven project and then go to Maven --> Update Maven Project --> tick (Force Update of Snapshots/Release) section and click ok.
 
-4. Let the necessary files be downloaded and viola, Hibernate installed.
+4. Let the necessary files be downloaded , copy the <properties> till  </dependencies> section from POM(1) and paste into the POM created from the project, save and then right-click on the file, select run-as, first clear the maven-build and maven-build.
+
+
+Viola, Hibernate installed.
 
 
 
