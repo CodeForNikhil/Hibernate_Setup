@@ -1,0 +1,13 @@
+1. Edit the Settings.xml file for Username,Password and host section according to your database.
+
+2. Open the IDE, Go to Windows section --> Preferences --> Maven --> user settings --> add the settings.xml file in .m2 repository (URL in the local repository section) --> after completion, click to apply.
+
+3. Right click on the newly created maven project and then go to Maven --> Update Maven Project --> tick (Force Update of Snapshots/Release) section and click ok.
+
+4. Let the necessary files be downloaded and viola, Hibernate installed.
+
+
+
+Steps to create the Hibernate file.
+
+1. Go to new --> Maven --> tick the Create a Simple Project(Skip archetype selection) and then proceed accordinly.
